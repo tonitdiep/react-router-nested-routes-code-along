@@ -4,7 +4,7 @@ const MovieShow = ({match, movies}) => {
 
   return (
     <div>
-      <h3>{movies[match.params.movieId].title}</h3>
+      <h3>Movie Title: {movies[match.params.movieId].title}</h3>
     </div>
   );
 }
